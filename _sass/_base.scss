@@ -25,7 +25,12 @@ body {
     font-kerning: normal;
 }
 
-
+img.center {
+    max-width: 50%;
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
