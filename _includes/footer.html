@@ -2,19 +2,21 @@
 
 	<div class="wrapper">
 
-		<h2 class="footer-heading">{{ site.title }} • <a href="{{ site.baseurl }}/table-of-contents">Table of Contents</a></h2>
+		<h2 class="footer-heading">{{ site.title }} / 台北報導 </h2>
 
 		<div class="footer-col-wrapper">
 			<div class="footer-col footer-col-1">
 				<ul class="contact-list">
+                                        <li><a href="{{ site.baseurl }}/table-of-contents">Table of Contents</a></li>
 					<li>{{ site.title }} ※ Just Copy It</li>
-					<li><a href="http://ailabs.tw">{{ site.website }}</a></li>
-					<li><a>台灣人工智慧實驗室</a></li>
 				</ul>
 			</div>
 
 			<div class="footer-col footer-col-2">
 				<ul class="social-media-list">
+
+					<li><a href="http://ailabs.tw">{{ site.website }}</a></li>
+					<li><a href="http://ailabs.tw">台灣人工智慧實驗室</a></li>
 					{% if site.github_username %}
 					<li>
 						{% include icon-github.html username=site.github_username %}
