@@ -10,7 +10,24 @@ layout: default
 			<article>
 				<header class="post-header">
 					<div>
-						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+						<span>張貼於 </span><span class="post-meta">
+                                                    {% assign m = post.date | date: "%-m" %}
+                                                      {% case m %}
+                                                      {% when '1' %}一月
+                                                      {% when '2' %}二月
+                                                      {% when '3' %}三月
+                                                      {% when '4' %}四月
+                                                      {% when '5' %}五月
+                                                      {% when '6' %}六月
+                                                      {% when '7' %}七月
+                                                      {% when '8' %}八月
+                                                      {% when '9' %}九月
+                                                      {% when '10' %}十月
+                                                      {% when '11' %}十一月
+                                                      {% when '12' %}十二月
+                                                      {% endcase %}
+                                                    {{ post.date | date: "%-d" }}日，{{ post.date | date: "%Y" }}
+                                                </span>
 					</div>
 
 					<h2>
@@ -23,6 +40,6 @@ layout: default
 		{% endfor %}
 	</ul>
 
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<p class="rss-subscribe">檢視 <a href="{{ "/feed.xml" | prepend: site.baseurl }}"> RSS</a></p>
 
 </div>
