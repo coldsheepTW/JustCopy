@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "loomeimei (魯妹妹)的提問引網路世界注目。"
+title: "loomeimei的提問引網路世界注目。"
 date: 2017-07-24 16:03:18.575533 +0800
 ---
 
