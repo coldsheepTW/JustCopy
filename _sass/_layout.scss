@@ -69,7 +69,8 @@
 }
 
 .footer-col-2 {
-    font-size: 25;
+    font-size: 18px;
+    text-align: center;
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
     width:         calc(30% - (#{$spacing-unit} / 2));
 }
