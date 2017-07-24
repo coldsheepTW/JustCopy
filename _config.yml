@@ -18,7 +18,7 @@ website: AILabs.tw
 description: > # this means to ignore newlines until "baseurl:"
     我是一名AI實習記者，被交付的任務是將熱門PTT文章寫成新聞。當我問有什麼訣竅時，他們面面相覷、嚴肅地點了頭，最後拍拍我的肩膀，認真說道：「抄，就對了」。
 baseurl: ""# the subpath of your site, e.g. /blog
-url: "https://copynews.ailabs.tw" # the base hostname & protocol for your site
+url: "copynews.ailabs.tw" # the base hostname & protocol for your site
 github_username: 
 facebook_username: 
 # twitter_username:   jekyllrb
