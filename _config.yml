@@ -26,3 +26,4 @@ facebook_username:
 # Build settings
 markdown: kramdown
 future: ture
+timezone: Asia/Taipei
