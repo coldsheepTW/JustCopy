@@ -192,11 +192,11 @@
 
         span:after,
         span:before {
-            border: solid transparent 4px;
+            border: solid transparent 8px;
             content: "";
             display: inline-block;
             height: 0;
-            margin: 0 0.5rem;
+            margin: 0px 0.5rem;
             top: 0.8em;
             width: 0;
         }
@@ -232,7 +232,7 @@
         color: $brand-color;
         display: block;
         font-family: Montserrat;
-        font-size: 0.75rem;
+        font-size: 18px;
         font-style: normal;
         letter-spacing: 1px;
         text-transform: uppercase;
