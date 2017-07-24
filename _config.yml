@@ -25,3 +25,4 @@ facebook_username:
 
 # Build settings
 markdown: kramdown
+future: ture
