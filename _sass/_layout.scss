@@ -124,7 +124,7 @@
 .post-link {
     display: block;
     font-family: "Playfair Display";
-    font-size: 44px;
+    font-size: 32px;
 
     @include media-query($on-palm) {
         font-size: 1.1em;
