@@ -62,11 +62,11 @@ article {
             display: inline-block;
             float: left;
             font-family: "Playfair Display";
-            font-size: 121px;
+            font-size: 87px;
             font-style: normal;
             font-weight: 700;
             line-height: 70px;
-            margin: 6px 10px 0 -5px;
+            margin: -5px 10px 0px -5px;
 
             @include media-query($on-palm) {
                 font-size: 70px;
@@ -89,7 +89,7 @@ article {
     border-bottom: 1px solid #d9d6d0;
     margin-bottom: 2rem;
     text-align: center;
-
+/*
     &:before {
         background: #faf9f5;
         border: 1px solid #d9d6d0;
@@ -104,7 +104,7 @@ article {
         margin: 1rem auto 2rem;
         padding: 10px;
         text-shadow: none;
-    }
+    }*/
 
     > div {
         color: $grey-color;
