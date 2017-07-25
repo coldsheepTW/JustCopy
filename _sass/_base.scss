@@ -47,7 +47,17 @@ ul, ol, dl, figure,
 /**
  * Articles
  */
-article {
+
+article.list {
+    padding: 0.1em 0.5em;
+
+    > .entry-content-img {
+        height: 30vmin;
+        overflow: hidden;
+    }
+}
+
+article.post {
     background: #faf9f5;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
     margin-bottom: $spacing-unit;
@@ -63,7 +73,7 @@ article {
         }
 
         &:first-letter {
-            color: #b7b1a9;
+            color: #847a6c;
             display: inline-block;
             float: left;
             font-family: "Playfair Display";

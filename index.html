@@ -7,7 +7,7 @@ layout: default
 	<ul class="post-list">
 		{% for post in site.posts %}
 		<li>
-			<article>
+			<article class="list">
 				<header class="post-header">
 					<div>
 						<span>張貼於 </span><span class="post-meta">
@@ -34,7 +34,27 @@ layout: default
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h2>
 				</header>
+                                {% assign foundImg = 0 %}
+                                {% assign images = post.content | split:"<img " %}
+                                {% for image in images %}
+                                    {% if image contains 'src' %}
+                                        {% if foundImg == 0 %}
+                                            {% assign html = image | split:">" | first %}
+                                            {% assign foundImg = 1 %}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
 
+                                {% if foundImg == 1 %}
+                                <div class="entry-content-img">
+                                    <img {{ html }} >
+                                </div>
+                                {% else %}
+                                {% assign phs = post.content | split:"</p>" %}
+                                <div class="entry-content">
+                                    {{ phs.first }}
+                                </div>
+                                {% endif %}
 			</article>
 		</li>
 		{% endfor %}
