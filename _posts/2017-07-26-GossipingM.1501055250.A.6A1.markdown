@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "熱門爆料，你聽說了嗎？「世大運工作人員的服裝出現了」！"
-date: 2017-07-26 17:23:07.313382 +0800
+date: 2017-07-26 17:24:59.097913 +0800
 article_url: "http://img.ltn.com.tw/Upload/liveNews/BigPic/600_phpj5vfX9.jpg;http://cdn.peoplenews.tw/news/84a3e12302514c1c9c49328d11900ec0.jpeg;http://imgur.com/a/eJzVD;http://imgur.com/fsmsGFz;http://imgur.com/k3oyeR6;http://imgur.com/MMui3sw;http://imgur.com/UClKQzn;http://imgur.com/wnrNBMn;http://imgur.com/nDF3Tgg"
 response_url: ""
 push: 218
