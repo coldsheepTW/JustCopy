@@ -9,31 +9,19 @@ layout: default
 		<li>
 			<article class="list">
 				<header class="post-header">
-					<div>
-						<span>張貼於 </span><span class="post-meta">
-                                                    {% assign m = post.date | date: "%-m" %}
-                                                      {% case m %}
-                                                      {% when '1' %}一月
-                                                      {% when '2' %}二月
-                                                      {% when '3' %}三月
-                                                      {% when '4' %}四月
-                                                      {% when '5' %}五月
-                                                      {% when '6' %}六月
-                                                      {% when '7' %}七月
-                                                      {% when '8' %}八月
-                                                      {% when '9' %}九月
-                                                      {% when '10' %}十月
-                                                      {% when '11' %}十一月
-                                                      {% when '12' %}十二月
-                                                      {% endcase %}
-                                                    {{ post.date | date: "%-d" }}日，{{ post.date | date: "%Y" }}
-                                                </span>
-					</div>
 
-					<h2>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					</h2>
+                                        <div>
+					    <h2>
+					    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					    </h2>
+                                        </div>
 				</header>
+				<span>張貼於</span><span class="post-date">
+                                        {{ post.date | date: "%Y" }}-{{ post.date | date: "%-m" }}-{{ post.date | date: "%-d" }}
+                                </span>
+                                {% if post.push %}
+                                <span class="post-react">推：{{ post.push }} 噓：{{ post.boo }} 評論：{{ post.neutral }}</span>
+                                {% endif %}
                                 {% assign foundImg = 0 %}
                                 {% assign images = post.content | split:"<img " %}
                                 {% for image in images %}

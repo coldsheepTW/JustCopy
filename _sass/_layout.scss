@@ -12,19 +12,37 @@
 
     // Positioning context for the mobile navigation icon
     position: fixed;
+
+    > .wrapper {
+        height: 100%;
+    }
 }
 
 .site-title {
     font-family: "Playfair Display";
-    font-size: 4vh;
+    height: 100%;
+    font-size: 4.5vh;
     font-weight: 300;
     line-height: 5vh;
     margin-bottom: 0;
+    margin-right: 1%;
+    float: right;
 
     &,
     &:visited {
         color: $title-color;
     }
+}
+
+.site-action {
+    height: 60%;
+    width: 10%;
+    background: $title-color;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    color: #faf9f5;
+    margin: 0 1px;
+    float: right;
 }
 
 
@@ -131,9 +149,8 @@
     display: block;
     font-family: "Playfair Display";
     font-size: 24px;
-    line-height: 1.1em;
-    height: 1.1em;
-    overflow: hidden;
+    //line-height: 1.1em;
+    //height: 1.1em;
 
     @include media-query($on-palm) {
         font-size: 1.1em;
