@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "聖結石FB: 酸民請試著用理性的腦袋思考"
-date: 2017-07-26 17:23:04.563723 +0800
+date: 2017-07-26 17:24:55.277805 +0800
 article_url: "http://www.businessweekly.com.tw/article.aspx?id=20338type=Blogp=1;https://www.facebook.com/ShenJieShiSaint/posts/656400884563942"
 response_url: ""
 push: 20
