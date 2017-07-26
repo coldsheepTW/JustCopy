@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "大哉問！「DNA比對研究：紐西蘭毛利人是台灣人後裔」的回覆，引爆討論熱潮。"
-date: 2017-07-26 17:22:27.682395 +0800
+date: 2017-07-26 17:24:16.502679 +0800
 article_url: "http://i.epochtimes.com/assets/uploads/2017/07/amisandmaori.jpg;http://i.imgur.com/XEYNKyW.jpg;http://i.imgur.com/Z5spfQH.jpg"
 response_url: ""
 push: 55
