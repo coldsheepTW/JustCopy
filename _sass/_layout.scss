@@ -2,6 +2,8 @@
  * Site header
  */
 .site-header {
+    width: 100%;
+    height: 5vh;
     background: #faf9f5;
     border-top: 5px solid $title-color;
     border-bottom: 1px solid $grey-color-light;
@@ -9,14 +11,14 @@
     text-align: center;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
 }
 
 .site-title {
     font-family: "Playfair Display";
-    font-size: 56px;
+    font-size: 4vh;
     font-weight: 300;
-    line-height: 87px;
+    line-height: 5vh;
     margin-bottom: 0;
 
     &,
@@ -117,6 +119,7 @@
 
 .post-list {
     margin-left: 0;
+    margin-top: 5vh;
     list-style: none;
 }
 
@@ -144,6 +147,10 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+}
+
+.post-header-inpost {
+    margin-top: 5vh;
 }
 
 .post-title {

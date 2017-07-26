@@ -47,12 +47,18 @@ layout: default
 
                                 {% if foundImg == 1 %}
                                 <div class="entry-content-img">
+                                    <a href="{{ post.url | prepend: site.baseurl }}">
+                                    <span class="continue">《...繼續閱讀》</span>
                                     <img {{ html }} >
+                                    </a>
                                 </div>
                                 {% else %}
                                 {% assign phs = post.content | split:"</p>" %}
                                 <div class="entry-content">
+                                    <a href="{{ post.url | prepend: site.baseurl }}">
                                     {{ phs.first }}
+                                    <span class="continue">《...繼續閱讀》</span>
+                                    </a>
                                 </div>
                                 {% endif %}
 			</article>
