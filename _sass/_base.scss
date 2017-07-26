@@ -123,15 +123,16 @@ article.post {
         text-shadow: none;
     }*/
 
-    > div {
+    > .post-date {
         color: $grey-color-dark;
         font-size: $base-font-size;
         font-style: italic;
+        float: left;
 
         @include media-query($on-palm) {
             font-size: $small-font-size;
         }
-
+/*
         &:before {
             color: #d9d6d0;
             content: "~";
@@ -153,6 +154,7 @@ article.post {
             text-shadow: none;
             vertical-align: -6px;
         }
+*/
     }
 }
 
@@ -163,6 +165,10 @@ article.post {
             border-color: #faf9f5;
             box-shadow: 0 0 0 4px #eae9e6;
         }
+    }
+
+    .post-react {
+        float: right;
     }
 
 }
