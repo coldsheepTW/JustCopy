@@ -171,6 +171,10 @@ article.post {
         float: right;
     }
 
+    > li {
+        border: 1px solid #d9d6d0;
+        margin: 3px;
+    }
 }
 
 .continue {

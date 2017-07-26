@@ -17,9 +17,7 @@ layout: default
                                         </div>
 				</header>
 				<span>張貼於</span><span class="post-date">
-                                        {{ post.date | date: "%Y" }}
-                                        -{{ post.date | date: "%-m" }}
-                                        -{{ post.date | date: "%-d" }}
+                                        {{ post.date | date: "%Y" }}-{{ post.date | date: "%-m" }}-{{ post.date | date: "%-d" }}
                                 </span>
                                 {% if post.push %}
                                 <span class="post-react">推：{{ post.push }} 噓：{{ post.boo }} 評論：{{ post.neutral }}</span>
