@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "大哉問！「信中醫的人在想什麼？」，引爆討論熱潮。"
-date: 2017-07-26 17:24:55.274876 +0800
+date: 2017-07-26 17:29:34.801663 +0800
 article_url: "https://youtu.be/dDGBtuL_RDA"
 response_url: ""
 push: 19
