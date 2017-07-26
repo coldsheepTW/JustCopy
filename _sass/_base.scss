@@ -50,6 +50,7 @@ ul, ol, dl, figure,
 
 article.list {
     padding: 0.1em 0.5em;
+    font-color: $text-color;
 
     > .entry-content-img {
         height: 30vmin;
@@ -73,7 +74,7 @@ article.post {
         }
 
         &:first-letter {
-            color: #847a6c;
+            color: $text-color;
             display: inline-block;
             float: left;
             font-family: "Playfair Display";
@@ -90,7 +91,7 @@ article.post {
         }
 
         &:first-line {
-            color: #787065;
+            color: $text-color;
             font-family: "Playfair Display SC";
             font-size: 1em;
             font-style: normal !important;
@@ -122,7 +123,7 @@ article.post {
     }*/
 
     > div {
-        color: $grey-color;
+        color: $grey-color-dark;
         font-size: $base-font-size;
         font-style: italic;
 
@@ -162,8 +163,13 @@ article.post {
             box-shadow: 0 0 0 4px #eae9e6;
         }
     }
+
 }
 
+.continue {
+    font-style: italic;
+    float: right;
+}
 
 
 /**
@@ -172,6 +178,8 @@ article.post {
 img {
     max-width: 100%;
     vertical-align: middle;
+    display: block;
+    margin: auto;
 }
 
 
@@ -236,6 +244,10 @@ a {
     &:hover {
         color: darken($brand-color, 5%);
         text-decoration: none;
+    }
+
+    > .continue {
+        color: $continue-color;
     }
 }
 
