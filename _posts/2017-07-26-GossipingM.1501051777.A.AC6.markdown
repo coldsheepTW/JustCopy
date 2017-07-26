@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "大哉問！「18名台灣詐騙嫌犯 順利從泰國遣返回台」的回覆，引爆討論熱潮。"
-date: 2017-07-26 16:39:51.674225 +0800
+date: 2017-07-26 17:22:45.542632 +0800
 article_url: "http://www.cna.com.tw/news/aopl/2017072601401.aspx"
 response_url: ""
 push: 13
