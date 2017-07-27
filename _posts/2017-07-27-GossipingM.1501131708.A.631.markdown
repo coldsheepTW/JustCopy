@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "張花冠逼役男說真話『小花小花有夠水』"
-date: 2017-07-27 15:31:16.274251 +0800
+date: 2017-07-27 16:46:17.281616 +0800
 article_url: "https://www.facebook.com/flowerhome520/videos/1596663973709313/;http://i.imgur.com/1SvbElA.jpg"
 response_url: ""
 img: https://scontent-tpe1-1.xx.fbcdn.net/v/t15.0-10/20480492_1596667610375616_7045119865916489728_n.jpg?oh=d03550a1798efd445687006763d23ed9&oe=5A37D9A4
@@ -17,6 +17,8 @@ neutral: 20
 [ＦＢ] 張花冠逼役男說真話『小花小花有夠水』
 </figcaption>
 </figure>
+
+
 
 [即時新聞/記者快抄] 張花冠去營區慰勞服役役男，役男集合齊聲高喊小花小花有夠水，七月天大太陽去當兵就夠慘了，還要捧60幾歲阿婆的LP，嘉義縣的役男實在有夠慘，幸好她的貪汙、洩密案明天就宣判。
 
