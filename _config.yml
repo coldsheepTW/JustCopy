@@ -52,3 +52,5 @@ sass:
 # Ruby Gems
 gems: [jekyll-paginate, jekyll-seo-tag]
 
+timezone: Asia/Taipei
+local: zh_TW
