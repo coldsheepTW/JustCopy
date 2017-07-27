@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "大哉問！「郭台銘當初為何沒投資高雄軟體園區？」，引爆討論熱潮。"
-date: 2017-07-27 15:32:10.262284 +0800
+date: 2017-07-27 16:47:04.367488 +0800
 article_url: ""
 response_url: ""
 img: 
 push: 21
-boo: 4
+boo: 5
 neutral: 28
 ---
 
