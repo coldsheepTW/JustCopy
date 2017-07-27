@@ -22,8 +22,8 @@ layout: default
                   {% endif %}
                 </a>
                   <div class="panel-body"><small>
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">繼續閱讀</a>
+                    {{ post.excerpt | strip_html | truncate: 50 }}</small>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">...繼續閱讀</a>
                   </div>
                 </div>
             </div>
