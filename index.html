@@ -8,7 +8,7 @@ layout: default
     <div class="row pack">
 
         {% for post in paginator.posts %}   
-            <div class="col-md-4 card">
+            <div class="col-md-3 card">
                  
                 <div class="panel panel-default">
                   <div class="panel-body">
@@ -23,6 +23,9 @@ layout: default
                 </a>
                   <div class="panel-body"><small>
                     {{ post.excerpt | strip_html | truncate: 50 }}</small>
+                  </div>
+                  <div class="panel-body">
+                    <p class="pull-left mt10"><img height="20px" src="{{site.baseurl}}/images/up.png"/>  {{post.push}}</p>
                     <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">...繼續閱讀</a>
                   </div>
                 </div>
