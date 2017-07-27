@@ -1,43 +1,25 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
 
-
-// Font variables
-$font-name: libretto-icons;
-$font-path-file-name: {{ site.baseurl }}/assets/fonts/$font-name/$font-name;
-
-@font-face {
-    font-family: $font-name;
-    src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
-    src: url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
-         url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
-}
-
-
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 
 // Our variables
-$base-font-family: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif;
-$base-font-size:   17px;
+$base-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
 $base-font-weight: 400;
-$base-line-height: 2;
-
 $small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$brand-color:      #312c26;
-$background-color: #f2f1ed;
-$text-color:       #363431;
-$title-color:      #943526;
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
 
-$grey-color:       #555102;
-$grey-color-light: lighten($grey-color, 30%);
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-$continue-color:   #828282;
 
 // Width of the content area
 $content-width:    800px;
@@ -64,7 +46,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
         "layout",
+        "custom",
         "syntax-highlighting"
 ;

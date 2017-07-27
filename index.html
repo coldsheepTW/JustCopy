@@ -3,55 +3,65 @@ layout: default
 ---
 
 <div class="home">
+ 
+  
+    <div class="row pack">
 
-	<ul class="post-list">
-		{% for post in site.posts %}
-		<li>
-			<article class="list">
-				<header class="post-header">
+        {% for post in paginator.posts %}   
+            <div class="col-md-4 card">
+                 
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%Y-%m-%d" }}</small></span>
+                  </div>
+                  {% if post.img %}
+                  <img width="100%" src="{{post.img}}" alt="{{post.title}}">
+                  {% else %}
+                  <img width="100%" src="{{site.baseurl}}/images/PTT.png" alt="{{site.title}}">
+                  {% endif %}
+                </a>
+                  <div class="panel-body"><small>
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">繼續閱讀</a>
+                  </div>
+                </div>
+            </div>
+        
+          {% endfor %}
 
-                                        <div>
-					    <h2>
-					    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					    </h2>
-                                        </div>
-				</header>
-				<span>張貼於</span><span class="post-date">
-                                        {{ post.date | date: "%Y" }}-{{ post.date | date: "%-m" }}-{{ post.date | date: "%-d" }}
-                                </span>
-                                {% if post.push %}
-                                <span class="post-react">推：{{ post.push }} 噓：{{ post.boo }} 評論：{{ post.neutral }}</span>
-                                {% endif %}
-                                {% assign foundImg = 0 %}
-                                {% assign images = post.content | split:"<img " %}
-                                {% for image in images %}
-                                    {% if image contains 'src' %}
-                                        {% if foundImg == 0 %}
-                                            {% assign html = image | split:">" | first %}
-                                            {% assign foundImg = 1 %}
-                                        {% endif %}
-                                    {% endif %}
-                                {% endfor %}
+    </div> 
+    
+<div class="row">
+    <div class="col-md-4">  </div>
+    <div class="col-md-4">
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+          {% else %}
+            <li><span>&laquo; Prev</span></li>
+          {% endif %}
 
-                                {% if foundImg == 1 %}
-                                <div class="entry-content-img">
-                                    <a href="{{ post.url | prepend: site.baseurl }}">
-                                    <span class="continue">《...繼續閱讀》</span>
-                                    <img {{ html }} >
-                                    </a>
-                                </div>
-                                {% else %}
-                                {% assign phs = post.content | split:"</p>" %}
-                                <div class="entry-content">
-                                    <a href="{{ post.url | prepend: site.baseurl }}">
-                                    {{ phs.first }}
-                                    <span class="continue">《...繼續閱讀》</span>
-                                    </a>
-                                </div>
-                                {% endif %}
-			</article>
-		</li>
-		{% endfor %}
-	</ul>
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="active"><span><em>{{ page }}</em></span></li>
+            {% elsif page == 1 %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            {% else %}
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            {% endif %}
+          {% endfor %}
 
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+          {% else %}
+            <li><span >Next &raquo;</span></li>
+          {% endif %}
+          </ul>
+        {% endif %}
+
+    </div>
+    <div class="col-md-4">  </div>
+</div>
 </div>

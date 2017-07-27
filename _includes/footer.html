@@ -1,54 +1,22 @@
-<footer class="site-footer">
+<footer>
+    <div class="container">
+        <div class="row p20">
+            {% if site.copyright.name %}
+                <div class="col-md-4 text-center mt25">Power by <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a></div>
+            {% endif %}
 
-	<div class="wrapper">
+            <div class="col-md-4 text-center mt25" >
+                {% if site.built-by %}
+                <a target="_blank" href="http://webjeda.com"><img src="https://img.shields.io/badge/Built%20by-webjeda-blue.svg" alt="{{site.built-by}}"></a>
+                {% endif %}
+            </div>
+            <div class="col-md-4 text-center mt25">
+                <a target="_blank" href="{{site.facebook}}"><li class="social facebook"><img src="{{site.baseurl}}/images/facebook.svg" alt="{{site.facebook}}"></li></a> 
+                <a target="_blank" href="{{site.quora}}"><li class="social quora"><img src="{{site.baseurl}}/images/quora.svg" alt="{{site.quora}}"></li></a>      
+                <a target="_blank" href="{{site.twitter}}"><li class="social twitter"><img src="{{site.baseurl}}/images/twitter.svg" alt="{{site.twitter}}"></li></a>      
+                <a target="_blank" href="{{site.github}}"><li class="social github"><img src="{{site.baseurl}}/images/github.svg" alt="{{site.github}}"></li></a>
+            </div>
 
-		<h2 class="footer-heading">{{ site.title }} / 台北報導 · <a href="{{ site.baseurl }}/table-of-contents">Table of Contents</a></h2>
-
-		<div class="footer-col-wrapper">
-			<div class="footer-col footer-col-1">
-				<ul class="contact-list">
-					<li><a href="{{ site.baseurl }}/intro">關於{{ site.title }} ※ Copy, right ©</a></li>
-					<li># 鄉民 # 人工智慧 # 全自動農場</li>
-					<li>Powered by <a href="https://jekyllrb.com/">Jekyll</a>
-                                             with  
-                                            <a href="https://github.com/ferrolho/jekyll-theme-libretto">Libretto</a>
-                                        </li>
-				</ul>
-			</div>
-
-			<div class="footer-col footer-col-2">
-				<ul class="social-media-list">
-					<li>
-                                            新聞為自動產生
-					</li>
-					<li>
-                                            不代表本台立場
-					</li>
-					{% if site.github_username %}
-					<li>
-						{% include icon-github.html username=site.github_username %}
-					</li>
-					{% endif %}
-
-					{% if site.instagram_username %}
-					<li>
-						{% include icon-instagram.html username=site.instagram_username %}
-					</li>
-					{% endif %}
-
-					{% if site.twitter_username %}
-					<li>
-						{% include icon-twitter.html username=site.twitter_username %}
-					</li>
-					{% endif %}
-				</ul>
-			</div>
-
-			<div class="footer-col footer-col-3">
-                            <img src="{{ site.baseurl }}/AILabs_icon.svg" height="90%" width="90%">
-			</div>
-		</div>
-
-	</div>
-
+        </div> 
+    </div>
 </footer>
