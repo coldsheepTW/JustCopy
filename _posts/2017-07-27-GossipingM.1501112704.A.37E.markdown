@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "「一蘭根本不用排隊」？鄉民這樣說。"
-date: 2017-07-27 11:12:29.765951 +0800
+date: 2017-07-27 14:08:01.624002 +0800
 article_url: ""
 response_url: ""
-push: 22
+push: 23
 boo: 11
 neutral: 22
 ---
