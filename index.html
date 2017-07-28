@@ -12,7 +12,7 @@ layout: default
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <a href="{{ post.url | prepend: site.baseurl }}">
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%Y-%m-%d" }}</small></span>
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
                   </div>
                   {% if post.img %}
                   <img width="100%" src="{{post.img}}" alt="{{post.title}}">
@@ -20,12 +20,13 @@ layout: default
                   <img width="100%" src="{{site.baseurl}}/images/PTT.png" alt="{{site.title}}">
                   {% endif %}
                 </a>
-                  <div class="panel-body"><small>
-                    {{ post.excerpt | strip_html | truncate: 50 }}</small>
+                  <div class="panel-body"><a href="{{ post.url | prepend: site.baseurl }}"><small>
+                    {{ post.excerpt | strip_html | truncate: 50 }}</small></a>
                   </div>
                   <div class="panel-body">
-                    <p class="pull-left mt10"><img height="20px" src="{{site.baseurl}}/images/up.png"/>  {{post.push}}</p>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">...繼續閱讀</a>
+                    <p class="push pull-left mt10"><img height="20px" src="{{site.baseurl}}/images/up.png"/>  {{post.push}}   </p>
+                    <p class="boo pull-left mt10"><img height="20px" src="{{site.baseurl}}/images/down.png"/>  {{post.boo}}</p>
+                    <span class="post-meta pull-right"><small>{{ post.date | date: "%Y-%m-%d" }}</small></span>
                   </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@ layout: default
             {% if page == paginator.page %}
               <li class="active"><span><em>{{ page }}</em></span></li>
             {% elsif page == 1 %}
-            <li><a href="{{ site.url }}">{{ page }}</a></li>
+            <li><a href="{{ site.baseurl }}/">{{ page }}</a></li>
             {% else %}
             <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
             {% endif %}

@@ -121,3 +121,15 @@ footer {
 .post-title {
     line-height: 2;
 }
+
+.post-content {
+    > figure {
+        margin: 1em 40px;
+        text-align: center;
+        font-style: italic;
+    }
+}
+
+.boo {
+    margin-left: 5px;
+}
