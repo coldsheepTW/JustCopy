@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "瘋了！網友問「保留法律追訴權是那個文組發明的?」，回文居然⋯⋯"
-date: 2017-07-28 11:02:33.644944 +0800
+date: 2017-07-28 11:28:01.638456 +0800
 article_url: "http://imgur.com/a/BlKBI"
 response_url: "http://i.imgur.com//1AS3ECF.jpg;https://i.imgur.com//AVSEp8p.png"
 img: http://i.imgur.com/T6nWmVl.jpg?fb
