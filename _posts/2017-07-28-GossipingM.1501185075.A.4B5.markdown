@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "瘋了！網友問「痛心！富士康後 又一家台企出走美國」，回覆居然⋯⋯"
-date: 2017-07-28 14:20:55.323089 +0800
+date: 2017-07-28 14:24:15.837192 +0800
 article_url: "http://i.imgur.com/oLeep6X.jpg"
 response_url: ""
 img: http://i.imgur.com/oLeep6X.jpg
