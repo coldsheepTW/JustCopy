@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "大哉問！「為啥人類好像不太適合肉食」的回覆，引爆討論熱潮。"
-date: 2017-07-28 10:47:55.120542 +0800
+date: 2017-07-28 14:24:45.421819 +0800
 article_url: "https://en.m.wikipedia.org/wiki/Common_chimpanzee;http://i.imgur.com/8O3OuYk.jpg;http://i.imgur.com/6oI7fok.jpg;http://i.imgur.com/otRxeol.jpg;http://i.imgur.com/D42ajTU.jpg;http://i.imgur.com/7yuzkLZ.jpg;http://www.natgeomedia.com/news/special/7731"
-response_url: ""
+response_url: "https://youtu.be//g0e5Hhp82VM"
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pan_troglodytes_%28male%29.jpg/1200px-Pan_troglodytes_%28male%29.jpg
-all_img: http://i.imgur.com/8O3OuYk.jpg;http://i.imgur.com/6oI7fok.jpg;http://i.imgur.com/otRxeol.jpg;http://i.imgur.com/D42ajTU.jpg;http://i.imgur.com/7yuzkLZ.jpg;http://www.natgeomedia.com/wp-content/uploads/2016/01/grid_2048-1024x510-1.jpg
+all_img: http://i.imgur.com/8O3OuYk.jpg;http://i.imgur.com/6oI7fok.jpg;http://i.imgur.com/otRxeol.jpg;http://i.imgur.com/D42ajTU.jpg;http://i.imgur.com/7yuzkLZ.jpg;http://www.natgeomedia.com/wp-content/uploads/2016/01/grid_2048-1024x510-1.jpg;https://i.ytimg.com/vi/g0e5Hhp82VM/hqdefault.jpg
 push: 56
 boo: 1
 neutral: 15

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "大哉問！「為啥人類好像不太適合肉食」的回覆，引爆討論熱潮。"
-date: 2017-07-28 10:47:43.325613 +0800
+date: 2017-07-28 14:24:30.402899 +0800
 article_url: "https://en.m.wikipedia.org/wiki/Common_chimpanzee"
 response_url: ""
 img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pan_troglodytes_%28male%29.jpg/1200px-Pan_troglodytes_%28male%29.jpg
