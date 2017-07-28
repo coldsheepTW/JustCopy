@@ -14,11 +14,15 @@ layout: default
                     <a href="{{ post.url | prepend: site.baseurl }}">
                     <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
                   </div>
-                  {% if post.img %}
-                  <img width="100%" src="{{post.img}}" alt="{{post.title}}">
-                  {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/PTT.png" alt="{{site.title}}">
-                  {% endif %}
+                    <div class="img-container">
+                        <div class="img-wrapper">
+                        {% if post.img %}
+                        <img class="post-img" src="{{post.img}}" alt="{{post.title}}">
+                        {% else %}
+                        <img class="post-img" src="{{site.baseurl}}/images/PTT.png" alt="{{site.title}}">
+                        {% endif %}
+                        </div>
+                    </div>
                 </a>
                   <div class="panel-body"><a href="{{ post.url | prepend: site.baseurl }}"><small>
                     {{ post.excerpt | strip_html | truncate: 50 }}</small></a>

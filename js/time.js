@@ -4,9 +4,8 @@ function timeConvert() {
   
   var post_times = document.getElementsByClassName("post-time");
 
-  for ( i in post_times ) {
+  for ( var i = 0; i < post_times.length; i++ ) {
     var timeString = post_times[i].innerHTML;
-    console.log(timeString);
     var timeStamp = getDateTimeStamp(timeString);
     var result = getDateDiff(timeStamp);
     post_times[i].innerHTML = result;

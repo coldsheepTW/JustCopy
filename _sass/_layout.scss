@@ -98,14 +98,19 @@ footer {
     border: 1px solid $grey-color-light;
 }
 
-.post-img img {
+.post-img {
     width: 100%;
+    overflow: hidden;
 }
 
+.img-container {
+    > .img-wrapper {
+        height: 100%;
+        overflow: hidden;
+    }
+}
 
 .pack {
-
-
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -115,7 +120,6 @@ footer {
 
 .card {
     float: none;
-
 }
 
 .post-title {
