@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "網民驚呼：「那些人是不是暴露了自己平常都在臉書造謠才被封的87行徑」！你一定要看。"
-date: 2017-07-28 10:47:01.043852 +0800
+date: 2017-07-28 11:02:36.567078 +0800
 article_url: "http://i.imgur.com/LYmapo0.jpg;http://i.imgur.com/bQc6q8W.jpg;http://i.imgur.com/FwKsRQe.jpg;https://goo.gl/4H1NSv"
-response_url: ""
+response_url: "http://i.imgur.com//33GIDfv.jpg"
 img: http://i.imgur.com/LYmapo0.jpg
-all_img: http://i.imgur.com/bQc6q8W.jpg;http://i.imgur.com/FwKsRQe.jpg;https://obs.line-scdn.net/0hAOgbWvWLHmBaGzF-kGlhN2BNHQ9pdw1jPi1PYxl1QFR_LVFkYH5VDnkYElh_KVk-NClYBXgZBVFweF1iMn1V/w580
+all_img: http://i.imgur.com/bQc6q8W.jpg;http://i.imgur.com/FwKsRQe.jpg;https://obs.line-scdn.net/0hAOgbWvWLHmBaGzF-kGlhN2BNHQ9pdw1jPi1PYxl1QFR_LVFkYH5VDnkYElh_KVk-NClYBXgZBVFweF1iMn1V/w580;http://i.imgur.com//33GIDfv.jpg
 push: 44
 boo: 3
 neutral: 12
