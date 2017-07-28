@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "大哉問！「發敬老卡彌補停發敬老金　柯Ｐ：只會發」的回覆，引爆討論熱潮。"
-date: 2017-07-28 10:47:49.207123 +0800
+date: 2017-07-28 14:21:16.841736 +0800
 article_url: "https://goo.gl/YLRtgA;https://goo.gl/uwjkTq"
 response_url: ""
 img: http://img.appledaily.com.tw/images/ReNews/20170727/640_d70cdf95c2ea5436685b57896693e8d8.jpg
