@@ -137,3 +137,20 @@ footer {
 .boo {
     margin-left: 5px;
 }
+
+.nav-header {
+    margin-bottom: 0;
+}
+
+.category {
+    background-color : #d75b62;
+}
+
+.category-list {
+    > li > a {
+        color: white;
+    }
+    > li > a:hover {
+        color: grey;
+    }
+}
