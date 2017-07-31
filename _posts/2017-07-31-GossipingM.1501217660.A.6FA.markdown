@@ -2,24 +2,14 @@
 layout: post
 tags: Gossiping
 title: "網友cliom66779的提問引網路世界注目。"
-date: 2017-07-31 18:03:22.805925 +0800
+date: 2017-07-31 18:12:35.091640 +0800
 article_url: ""
 response_url: ""
-img: h
-all_img: t;t;p;:;/;/;i;.;i;m;g;u;r;.;c;o;m;/;/;I;M;d;H;3;j;o;.;j;p;g
+img: 
 push: 22
 boo: 3
 neutral: 15
 ---
-
-<figure>
-<img src="h" alt="image">
-<figcaption>
-[問卦] 成吉思汗為什麼這麼bug？
-</figcaption>
-</figure>
-
-
 
 隨口一問，引網友瘋狂討論？在2017年7月28日，時間12點54分17秒，一句「成吉思汗為什麼這麼bug？」當標題，內容寫著：「蒙古人在他之前還被金國屌打，結果沒20年，蒙古鐵騎橫掃全世界，勢如破竹的程度連當今美帝也辦不到，看看美帝打伊拉克，焦頭爛額的樣子，就更凸顯了成吉思汗的bug了，成吉思汗是人類史上最大bug嗎，有沒有成吉思汗外掛花了多少的卦」，這樣的一篇文章，竟吸引不少人爭相留言。
 
