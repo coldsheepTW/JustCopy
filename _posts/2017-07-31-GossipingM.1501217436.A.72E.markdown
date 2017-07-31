@@ -2,24 +2,14 @@
 layout: post
 tags: Gossiping
 title: "網路熱門話題：「鄉民是不是敗給林鳳營了?」，你怎麼看？"
-date: 2017-07-31 18:02:10.185909 +0800
+date: 2017-07-31 18:11:02.043576 +0800
 article_url: ""
 response_url: ""
-img: h
-all_img: t;t;p;:;/;/;i;.;i;m;g;u;r;.;c;o;m;/;/;I;M;d;H;3;j;o;.;j;p;g
+img: 
 push: 25
 boo: 3
 neutral: 17
 ---
-
-<figure>
-<img src="h" alt="image">
-<figcaption>
-[問卦] 鄉民是不是敗給林鳳營了?
-</figcaption>
-</figure>
-
-
 
 人生總有許多疑惑，世界總有許多未知，而一個人的困惑，也可能是眾人想追尋的答案，網友ThorFukt的問題，便引起熱烈迴響。
 
