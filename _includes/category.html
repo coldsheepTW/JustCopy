@@ -2,12 +2,17 @@
     <div class="container container-fluid">
         <div class="wrapper">
         <ul class="category-list nav nav-tabs list-inline">
-            <li class="active"><a data-toggle="tab" href="#home">所有</a></li>
-            <li class="gossip"><a data-toggle="tab" href="#Gossiping">八卦</a></li>
-            <li class="sports"><a data-toggle="tab" href="#NBA">體育</a></li>
-            <li class="movie"><a data-toggle="tab" href="#movie">電影</a></li>
-            <li class="beauty"><a data-toggle="tab" href="#Beauty">表特</a></li>
+            <li class="active"><a href="{{site.basrurl}}">所有</a></li>
+            <li class="gossip" onClick="sessionStorage.setItem('cat', 'Gossiping')"><a href="{{site.basrurl}}/tag/Gossiping">八卦</a></li>
+            <li class="sports" onClick="sessionStorage.setItem('cat', 'NBA')"><a href="{{site.basrurl}}/tag/NBA">體育</a></li>
+            <li class="movie" onClick="sessionStorage.setItem('cat', 'movie')"><a href="{{site.basrurl}}/tag/movie">電影</a></li>
+            <li class="beauty" onClick="sessionStorage.setItem('cat', 'Beauty')"><a href="{{site.basrurl}}/tag/Beauty">表特</a></li>
         </ul>
         </div>
     </div>
 </nav>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        layoutAdjust();
+    });
+</script>
