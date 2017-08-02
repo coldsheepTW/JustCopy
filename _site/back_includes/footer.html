@@ -1,0 +1,54 @@
+<footer class="site-footer">
+
+	<div class="wrapper">
+
+		<h2 class="footer-heading">{{ site.title }} / 台北報導 · <a href="{{ site.baseurl }}/table-of-contents">Table of Contents</a></h2>
+
+		<div class="footer-col-wrapper">
+			<div class="footer-col footer-col-1">
+				<ul class="contact-list">
+					<li><a href="{{ site.baseurl }}/intro">關於{{ site.title }} ※ Copy, right ©</a></li>
+					<li># 鄉民 # 人工智慧 # 全自動農場</li>
+					<li>Powered by <a href="https://jekyllrb.com/">Jekyll</a>
+                                             with  
+                                            <a href="https://github.com/ferrolho/jekyll-theme-libretto">Libretto</a>
+                                        </li>
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-2">
+				<ul class="social-media-list">
+					<li>
+                                            新聞為自動產生
+					</li>
+					<li>
+                                            不代表本台立場
+					</li>
+					{% if site.github_username %}
+					<li>
+						{% include icon-github.html username=site.github_username %}
+					</li>
+					{% endif %}
+
+					{% if site.instagram_username %}
+					<li>
+						{% include icon-instagram.html username=site.instagram_username %}
+					</li>
+					{% endif %}
+
+					{% if site.twitter_username %}
+					<li>
+						{% include icon-twitter.html username=site.twitter_username %}
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+
+			<div class="footer-col footer-col-3">
+                            <img src="{{ site.baseurl }}/AILabs_icon.svg" height="90%" width="90%">
+			</div>
+		</div>
+
+	</div>
+
+</footer>
