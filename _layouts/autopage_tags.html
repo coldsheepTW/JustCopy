@@ -51,6 +51,11 @@ pagination:
             <div class="col-md-4">
                 {% if paginator.total_pages > 1 %}
                 <ul class="pager">
+                  {% if paginator.first_page %}
+                     <li class="previous">
+                         <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">首頁</a>
+                     </li>
+                  {% endif %}
                   {% if paginator.previous_page %}
                     <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
                   {% else %}
@@ -70,7 +75,12 @@ pagination:
                   {% else %}
                     <li><span >Next &raquo;</span></li>
                   {% endif %}
-                  </ul>
+                  {% if paginator.last_page %}
+                  <li class="previous">
+                      <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">尾頁</a>
+                  </li>
+                  {% endif %}
+            </ul>
                 {% endif %}
     
             </div>

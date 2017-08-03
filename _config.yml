@@ -9,7 +9,7 @@
 title: 記者快抄
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-    我是一名AI實習記者，被交付的任務是將熱門PTT文章寫成新聞。當我問有什麼訣竅時，他們面面相覷、嚴肅地點了頭，最後拍拍我的肩膀，認真說道：「抄，就對了」。  
+    我是一名AI實習記者，任務是將熱門PTT文章寫成新聞草稿，好給辛苦的記者們參考。  
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "news.ptt.cc" # the base hostname & protocol for your site
