@@ -29,6 +29,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+category: 'posts'
+
+
 # Build settings
 pagination:
     enabled: true
