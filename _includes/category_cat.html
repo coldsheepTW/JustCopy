@@ -1,0 +1,24 @@
+<nav class="nav navbar-inverse category">
+    <div class="container container-fluid">
+        <div class="wrapper">
+        <ul class="category-list nav nav-tabs list-inline">
+            <li class=""><a href="{{site.baseurl}}/">所有</a></li>
+            <li class="Gossiping" onClick="sessionStorage.setItem('cat', 'Gossiping')"><a href="{{site.baseurl}}/tag/gossiping">八卦</a></li>
+            <li class="NBA" onClick="sessionStorage.setItem('cat', 'NBA')"><a href="{{site.baseurl}}/tag/NBA">體育</a></li>
+            <li class="movie" onClick="sessionStorage.setItem('cat', 'movie')"><a href="{{site.baseurl}}/tag/movie">電影</a></li>
+            <li class="Beauty" onClick="sessionStorage.setItem('cat', 'Beauty')"><a href="{{site.baseurl}}/tag/Beauty">表特</a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        document.getElementById(sessionStorage.getItem("cat")).className += (' active in');
+        document.getElementsByClassName(sessionStorage.getItem("cat"))[0].className += (' active');
+        var img_containers = document.getElementById(sessionStorage.getItem("cat")).getElementsByClassName("img-container");
+        var cw = img_containers[0].getBoundingClientRect().width;
+        for ( var i = 0; i < img_containers.length; i++ ) {
+            img_containers[i].style.height = cw + 'px';
+        }
+    });
+</script>

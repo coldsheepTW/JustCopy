@@ -1,4 +1,4 @@
-window.onload = layoutAdjust();
+window.onload = layoutAdjust
 
 function layoutAdjust() {
     var img_containers = document.getElementsByClassName("img-container");
