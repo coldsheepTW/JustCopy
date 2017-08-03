@@ -2,17 +2,12 @@
     <div class="container container-fluid">
         <div class="wrapper">
         <ul class="category-list nav nav-tabs list-inline">
-            <li class="active"><a href="{{site.basrurl}}">所有</a></li>
-            <li class="gossip" onClick="sessionStorage.setItem('cat', 'Gossiping')"><a href="{{site.basrurl}}/tag/Gossiping">八卦</a></li>
-            <li class="sports" onClick="sessionStorage.setItem('cat', 'NBA')"><a href="{{site.basrurl}}/tag/NBA">體育</a></li>
-            <li class="movie" onClick="sessionStorage.setItem('cat', 'movie')"><a href="{{site.basrurl}}/tag/movie">電影</a></li>
-            <li class="beauty" onClick="sessionStorage.setItem('cat', 'Beauty')"><a href="{{site.basrurl}}/tag/Beauty">表特</a></li>
+            <li class="active"><a href="{{site.baseurl}}">所有</a></li>
+            <li class="gossip" onClick="sessionStorage.setItem('cat', 'Gossiping')"><a href="{{site.baseurl}}/tag/Gossiping">八卦</a></li>
+            <li class="sports" onClick="sessionStorage.setItem('cat', 'NBA')"><a href="{{site.baseurl}}/tag/NBA">體育</a></li>
+            <li class="movie" onClick="sessionStorage.setItem('cat', 'movie')"><a href="{{site.baseurl}}/tag/movie">電影</a></li>
+            <li class="beauty" onClick="sessionStorage.setItem('cat', 'Beauty')"><a href="{{site.baseurl}}/tag/Beauty">表特</a></li>
         </ul>
         </div>
     </div>
 </nav>
-<script>
-    document.addEventListener("DOMContentLoaded", function(event) {
-        layoutAdjust();
-    });
-</script>
