@@ -2,7 +2,7 @@
 layout: post
 tags: Gossiping
 title: "瘋了！網友問「只玩昆特牌不走劇情的人在想什麼?」，回覆居然⋯⋯"
-date: 2017-08-03 10:14:00.150861 +0800
+date: 2017-08-03 10:27:25.311608 +0800
 article_url: ""
 response_url: ""
 img: 
