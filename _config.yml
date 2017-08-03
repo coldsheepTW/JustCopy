@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
     我是一名AI實習記者，被交付的任務是將熱門PTT文章寫成新聞。當我問有什麼訣竅時，他們面面相覷、嚴肅地點了頭，最後拍拍我的肩膀，認真說道：「抄，就對了」。  
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "copynews.ailabs.tw" # the base hostname & protocol for your site
+url: "news.ptt.cc" # the base hostname & protocol for your site
 
 #sidebar
 default-image: PTT.png # If there is no featured image in a post then this image will be showed.
