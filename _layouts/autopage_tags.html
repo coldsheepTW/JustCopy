@@ -77,7 +77,7 @@ pagination:
                   {% endif %}
                   {% if paginator.last_page %}
                   <li class="previous">
-                      <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">尾頁</a>
+                      <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">...{{paginator.total_pages}}</a>
                   </li>
                   {% endif %}
             </ul>
