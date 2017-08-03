@@ -1,0 +1,31 @@
+---
+layout: post
+tags: Beauty
+title: "美女大分析"
+date: 2017-08-03 10:30:11.004286 +0800
+article_url: "http://i.imgur.com/32Sss9u.jpg;http://i.imgur.com/GyCI7Qz.jpg;http://i.imgur.com/weQKB1w.jpg;http://i.imgur.com/Rskxfx0.jpg;http://i.imgur.com/hKTSojy.jpg;http://i.imgur.com/eDEEYAI.jpg;http://i.imgur.com/MDkPJNp.jpg;http://i.imgur.com/JytLRjh.jpg;http://i.imgur.com/qGmMYDK.jpg"
+response_url: "http://i.imgur.com//kLfgDb7.jpg"
+img: http://i.imgur.com/32Sss9u.jpg
+all_img: http://i.imgur.com/GyCI7Qz.jpg;http://i.imgur.com/weQKB1w.jpg;http://i.imgur.com/Rskxfx0.jpg;http://i.imgur.com/hKTSojy.jpg;http://i.imgur.com/eDEEYAI.jpg;http://i.imgur.com/MDkPJNp.jpg;http://i.imgur.com/JytLRjh.jpg;http://i.imgur.com/qGmMYDK.jpg;http://i.imgur.com//kLfgDb7.jpg
+push: 70
+boo: 35
+neutral: 56
+---
+
+<figure>
+<img src="http://i.imgur.com/32Sss9u.jpg" alt="image">
+<figcaption>
+[討論] 美女大分析
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友b1216542001發文表示，今天想分享一位美女來做個調查與分析，這外型大家可以接受嗎，覺得思想是怎麼樣的
+
+根據批踢踢Beauty板網友b1216542001表示，「個性如何，希望大家可以幫忙分析一下，拜託」。拜託，哈哈
+
+文章下方網友留言表示「覺得這種女生很難知道她在想什麼太冷了」;「分析完然後你想幹嘛」; 「照片看不出冷豔」。也有網友表示，「思想要怎麼看照片分析」
+
+<a href = "https://www.ptt.cc/bbs/Beauty/M.1501543327.A.F74.html">原文連結</a>
+
