@@ -1,0 +1,31 @@
+---
+layout: post
+tags: NBA
+title: "情報數則"
+date: 2017-08-03 11:05:57.938019 +0800
+article_url: "http://ble.ac/2uKGWeg;http://www.tmz.com/2017/07/28/shaqlavarballdisstrack;http://ble.ac/2uKpxSN;http://ble.ac/2uKONIO;http://ble.ac/2uKbFI9;http://ble.ac/2uKnyOf;http://ble.ac/2uKnv5f;http://ble.ac/2uKp6I6;http://ble.ac/2uKIlBy;http://ble.ac/2uKkSQT"
+response_url: ""
+img: https://img.bleacherreport.net/img/images/photos/003/686/005/hi-res-6d4b6de12451c1be04f88b218ba5ad9d_crop_exact.jpg?w=1200&h=1200&q=75
+all_img: https://img.bleacherreport.net/img/images/photos/003/685/958/hi-res-2dd163eeda3eac2d8e5c955001b61aec_crop_exact.jpg?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/685/955/hi-res-176a5477618631178963b16e065d03dc_crop_exact.jpg?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/685/942/8e3dd8bf09cef967c4a65f172af0bbd0_crop_exact.png?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/686/004/hi-res-7c3f1cf8e552180cba9259804905059a_crop_exact.jpg?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/685/990/hi-res-4bde9ffd036a48ec35ce72ca2f7d79ce_crop_exact.jpg?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/685/983/hi-res-b03f6d9e2bd5519a2d892389c28dd040_crop_exact.jpg?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/677/047/hi-res-faba51538a83a070e50a04344c8acbdb_crop_exact.jpg?w=1200&h=1200&q=75;https://img.bleacherreport.net/img/images/photos/003/685/980/hi-res-49f319cd6bd25888531ebc0166a5db5a_crop_exact.jpg?w=1200&h=1200&q=75
+push: 40
+boo: 2
+neutral: 11
+---
+
+<figure>
+<img src="https://img.bleacherreport.net/img/images/photos/003/686/005/hi-res-6d4b6de12451c1be04f88b218ba5ad9d_crop_exact.jpg?w=1200&h=1200&q=75" alt="image">
+<figcaption>
+[情報] 情報數則
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友jimmy5680發文表示，曲調來自於JayZ的歌，Ball要求撤換AAU比賽中的特定裁判
+
+根據批踢踢NBA板網友jimmy5680表示，「一個健身中心上傳影片，內容是退休的Tim」。Duncan在練習綜合格鬥(MMA)，要求不要把LaVar
+
+文章下方網友留言表示「KI教壞小孩」;「地平說可是KI的信仰也，一定要跟著信的阿，XDDD」; 「真想跟TD打一場」。也有網友表示，「想看TD和光頭老單挑」
+
+<a href = "https://www.ptt.cc/bbs/NBA/M.1501285647.A.ECE.html">原文連結</a>
+
