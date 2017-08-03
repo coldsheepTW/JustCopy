@@ -2,7 +2,7 @@
 layout: post
 tags: Gossiping
 title: "大哉問！「印度民主真的有中國人講的這麼失敗嗎？」，引爆討論熱潮。"
-date: 2017-08-03 10:13:37.230078 +0800
+date: 2017-08-03 10:27:01.566600 +0800
 article_url: ""
 response_url: ""
 img: 
