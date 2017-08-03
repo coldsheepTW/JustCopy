@@ -49,8 +49,6 @@ autopages:
         layouts:
             - autopage_tags.html
         enabled: true
-    collections:
-        enabled: true
 
 # Tracker
 # analytics: UA-83979019-1
@@ -59,14 +57,13 @@ autopages:
 disqus-shortname: copynews
 
 #social
-facebook: http://facebook.com/copynewsTW
-quora: http://quora.com/sharathdt
+facebook: http://facebook.com/PttTW
 github: http://github.com/coldsheepTW/JustCopy
 
 #facebook like box
 fb-app-id: 549480635219583
-fb-page-url: https://www.facebook.com/copynewsTW
-fb-page-title: copynewsTW
+fb-page-url: https://www.facebook.com/PttTW
+fb-page-title: PttTW
 
 # Sass style
 sass:
