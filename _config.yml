@@ -32,7 +32,7 @@ exclude:
 # Build settings
 pagination:
     enabled: true
-    per_page: 8
+    per_page: 40
     permalink: '/page:num/'
     title: ':title'
     sort_field: 'date'

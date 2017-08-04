@@ -2,7 +2,7 @@
 layout: post
 tags: Gossiping
 title: "大哉問！「還沒發明肛交前 甲甲在幹嘛」的回覆，引爆討論熱潮。"
-date: 2017-08-03 10:27:32.645525 +0800
+date: 2017-08-03 16:03:09.394277 +0800
 article_url: "http://www.ifuun.com/a201643039443"
 response_url: ""
 img: 

@@ -2,7 +2,7 @@
 layout: post
 tags: Gossiping
 title: "大哉問！「郭董雇老美做工1年給多少？答案是164萬」的回覆，引爆討論熱潮。"
-date: 2017-08-03 10:26:57.441515 +0800
+date: 2017-08-03 16:23:30.216076 +0800
 article_url: "http://money.cnn.com/calculator/pf/costofliving/index.html;https://goo.gl/tgJTvS"
 response_url: ""
 img: http://img.appledaily.com.tw/images/ReNews/20170727/640_f0134d527eb7f5de363068ec4417b8e6.jpg

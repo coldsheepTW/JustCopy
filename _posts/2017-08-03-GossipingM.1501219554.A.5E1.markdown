@@ -2,7 +2,7 @@
 layout: post
 tags: Gossiping
 title: "瘋了！網友問「看好oBike　 柯P：YouBike將被oBike消滅」，回文居然⋯⋯"
-date: 2017-08-03 10:27:30.231832 +0800
+date: 2017-08-03 16:24:12.139193 +0800
 article_url: "http://www.appledaily.com.tw/realtimenews/article/life/20170728/1170410"
 response_url: ""
 img: http://img.appledaily.com.tw/images/ReNews/20170728/640_84e539c9e0c51660f56444b1c5419fd6.jpg

@@ -8,13 +8,11 @@ pagination:
 ---
 <script src="{{site.baseurl}}/js/layouts.js"></script>
 <div class="tab-content">
-    {% assign tags = "Gossiping|NBA|movie|Beauty" | split: '|' %}
-    {% for tag in tags %}
-    <div id="{{tag}}" class="tab-pane fade">
+    <div id="{{page.autopages.display_name}}" class="tab-pane active fade in">
         <div class="row pack">
     
         {% for post in paginator.posts %}   
-            {% if post.tags contains tag %}
+            {% if post.tags contains page.autopages.display_name %}
                 <div class="col-md-3 card">
                      
                     <div class="panel panel-default">
@@ -87,5 +85,4 @@ pagination:
             <div class="col-md-4">  </div>
         </div>
     </div>
-{% endfor %}
 </div>
