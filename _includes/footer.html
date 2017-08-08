@@ -1,50 +1,29 @@
-<footer class="site-footer">
+<footer>
+    <div class="container">
+        <div class="row p20">
+                <div class="col-md-4 text-center mt25">
+                <p><a  href="{{ site.baseurl }}/intro">關於{{ site.title }} ※ Copy, right ©</a></p>
+                {% if site.copyright.name %}
+                <p>Power by <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a></p>
+                {% endif %}
+                <p>Content from <a target="_blank" href="https://www.ptt.cc/bbs">PTT</a></p>
+                </div>
+                <div class="col-md-4 text-center mt25">
+                    <p>---新聞為自動產生---</p>
+                    <p>---不代表本台立場---</p>
+                </div>
+                <div class="col-md-4 text-center mt25">
+                    <p>Algorithm by:</p>
+                    <a href="http://ailabs.tw"><img src="{{ site.baseurl }}/images/AILabs_icon.svg" height="60%" width="60%"></a>
+                </div>
 
-	<div class="wrapper">
+            <!--div class="col-md-4 text-center mt25">
+                <a target="_blank" href="{{site.facebook}}"><li class="social facebook"><img src="{{site.baseurl}}/images/facebook.svg" alt="{{site.facebook}}"></li></a> 
+                <a target="_blank" href="{{site.quora}}"><li class="social quora"><img src="{{site.baseurl}}/images/quora.svg" alt="{{site.quora}}"></li></a>      
+                <a target="_blank" href="{{site.twitter}}"><li class="social twitter"><img src="{{site.baseurl}}/images/twitter.svg" alt="{{site.twitter}}"></li></a>      
+                <a target="_blank" href="{{site.github}}"><li class="social github"><img src="{{site.baseurl}}/images/github.svg" alt="{{site.github}}"></li></a>
+            </div--!>
 
-		<h2 class="footer-heading">{{ site.title }} / 台北報導 </h2>
-
-		<div class="footer-col-wrapper">
-			<div class="footer-col footer-col-1">
-				<ul class="contact-list">
-                                        <li><a href="{{ site.baseurl }}/table-of-contents">Table of Contents</a></li>
-					<li>{{ site.title }} ※ Copy, right ©</li>
-					<li># 實習 # 記者 # 鄉民</li>
-					<li># 全自動農場 # 快速總結</li>
-					<li># 人工智慧 # 最狂下標</li>
-				</ul>
-			</div>
-
-			<div class="footer-col footer-col-2">
-				<ul class="social-media-list">
-
-                                        <li><img src="{{ site.github.url }}/AILabs_icon.png" height="80%" width="80%">
-                                        </li>
-					{% if site.github_username %}
-					<li>
-						{% include icon-github.html username=site.github_username %}
-					</li>
-					{% endif %}
-
-					{% if site.instagram_username %}
-					<li>
-						{% include icon-instagram.html username=site.instagram_username %}
-					</li>
-					{% endif %}
-
-					{% if site.twitter_username %}
-					<li>
-						{% include icon-twitter.html username=site.twitter_username %}
-					</li>
-					{% endif %}
-				</ul>
-			</div>
-
-			<div class="footer-col footer-col-3">
-				<p>{{ site.description }}</p>
-			</div>
-		</div>
-
-	</div>
-
+        </div> 
+    </div>
 </footer>

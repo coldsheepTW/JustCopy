@@ -1,18 +1,8 @@
-# Libretto - Jekyll Theme
+Demo: [http://webjeda.com/cards](http://webjeda.com/cards)
 
-Libretto is a responsive one-column Jekyll theme with classic styling and careful typographic details.
+## Installation
+* Fork the repository
+* Go to settings and set Github Pages source as master.
+* Your new site should be ready.
 
-Based on the [Libretto Wordpress theme](https://wordpress.org/themes/libretto/).
-
-## Install and Test
-
-1. Download or clone the repo
-  - `git clone git@github.com:coldsheepTW/JustCopy.git`
-2. Enter the folder
-  - `cd JustCopy`
-3. Start Jekyll server
-  - `jekyll serve --watch`
-4. Access via
-  - http://127.0.0.1:4000
-
-## Developed by AILabs.tw
+For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)

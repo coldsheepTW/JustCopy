@@ -25,7 +25,12 @@ body {
     font-kerning: normal;
 }
 
-
+img.center {
+    max-width: 50%;
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -42,7 +47,19 @@ ul, ol, dl, figure,
 /**
  * Articles
  */
-article {
+
+article.list {
+    padding: 0.1em 0.5em;
+    font-color: $text-color;
+
+    > .entry-content-img {
+        height: 30vmin;
+        width: auto;
+        overflow: hidden;
+    }
+}
+
+article.post {
     background: #faf9f5;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
     margin-bottom: $spacing-unit;
@@ -58,11 +75,11 @@ article {
         }
 
         &:first-letter {
-            color: #b7b1a9;
+            color: $text-color;
             display: inline-block;
             float: left;
             font-family: "Playfair Display";
-            font-size: 87px;
+            font-size: 4em;
             font-style: normal;
             font-weight: 700;
             line-height: 70px;
@@ -75,7 +92,7 @@ article {
         }
 
         &:first-line {
-            color: #787065;
+            color: $text-color;
             font-family: "Playfair Display SC";
             font-size: 1em;
             font-style: normal !important;
@@ -106,15 +123,16 @@ article {
         text-shadow: none;
     }*/
 
-    > div {
-        color: $grey-color;
+    > .post-date {
+        color: $grey-color-dark;
         font-size: $base-font-size;
         font-style: italic;
+        float: left;
 
         @include media-query($on-palm) {
             font-size: $small-font-size;
         }
-
+/*
         &:before {
             color: #d9d6d0;
             content: "~";
@@ -136,6 +154,7 @@ article {
             text-shadow: none;
             vertical-align: -6px;
         }
+*/
     }
 }
 
@@ -147,8 +166,21 @@ article {
             box-shadow: 0 0 0 4px #eae9e6;
         }
     }
+
+    .post-react {
+        float: right;
+    }
+
+    > li {
+        border: 1px solid #d9d6d0;
+        margin: 3px;
+    }
 }
 
+.continue {
+    font-style: italic;
+    float: right;
+}
 
 
 /**
@@ -157,6 +189,8 @@ article {
 img {
     max-width: 100%;
     vertical-align: middle;
+    display: block;
+    margin: auto;
 }
 
 
@@ -221,6 +255,10 @@ a {
     &:hover {
         color: darken($brand-color, 5%);
         text-decoration: none;
+    }
+
+    > .continue {
+        color: $continue-color;
     }
 }
 

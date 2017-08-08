@@ -1,55 +1,59 @@
 ---
 layout: default
 ---
+<div class="row">
+<div class="col-md-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<header class="post-header">
-	<div>
-		<span>張貼於 </span><span class="post-meta">
-                    {% assign m = page.date | date: "%-m" %}
-                      {% case m %}
-                      {% when '1' %}一月
-                      {% when '2' %}二月
-                      {% when '3' %}三月
-                      {% when '4' %}四月
-                      {% when '5' %}五月
-                      {% when '6' %}六月
-                      {% when '7' %}七月
-                      {% when '8' %}八月
-                      {% when '9' %}九月
-                      {% when '10' %}十月
-                      {% when '11' %}十一月
-                      {% when '12' %}十二月
-                      {% endcase %}
-                    {{ page.date | date: "%-d" }}日，{{ page.date | date: "%Y" }}
-                    
-               </span>
-	</div>
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+            <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+                 
+          </header>
 
-	<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-</header>
+          <div class="post-content" itemprop="articleBody">
+            {{ content }}
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="entry-content" itemprop="articleBody">
-		{{ content }}
-	</div>
-</article>
+            {% if page.all_img %}
+            {% assign imgs = page.all_img | split: ';' %}
+                <div class="gallery">
+                {% for img in imgs %}
+                    <div class="photo col-md-2">
+                        <a href="{{img}}" target="_blank"><img src="{{img}}"></a>
+                    </div>
+                {% endfor %}
+                </div>
+            {% endif %}
+          </div>
 
-<div id="post-nav">
-	<div class="next">
-		{% if page.next.url %}
-		<a href="{{ site.baseurl }}{{ page.next.url }}">
-			<span>上一篇</span>
-			{{ page.next.title }}
-		</a>
-		{% endif %}
-	</div>
-
-	<div class="previous">
-		{% if page.previous.url %}
-		<a href="{{ site.baseurl }}{{ page.previous.url }}">
-			<span>下一篇</span>
-			{{ page.previous.title }}
-		</a>
-		{% endif %}
-	</div>
+    </article>
+    
+    
+    <div class="row">
+            <ul class="pager">
+             {% if page.next.url %}
+                <li><a class="next" href="{{page.next.url | prepend: site.baseurl}}">&laquo; {{page.next.title}}</a></li>
+             {% endif %}
+             {% if page.previous.url %}
+                <li><a class="previous" href="{{page.previous.url | prepend: site.baseurl}}">{{page.previous.title}} &raquo;</a></li>
+             {% endif %}
+            </ul>
+    </div>
 </div>
+
+
+{% include sidebar.html %}
+
+</div>
+
+
+{% include fb-script.html %}
+<div class="fb-like"
+    data-href="{{ site.url }}{{ page.url }}"
+    data-layout="standard"
+    data-action="like"
+    data-size="small"
+    data-show-faces="true"
+    data-share="true">
+</div>
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5" data-colorscheme="light"></div>

@@ -1,27 +1,73 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: 記者快抄
-website: AILabs.tw
+#email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-    我是一名AI實習記者，被交付的任務是將熱門PTT文章寫成新聞。當我問有什麼訣竅時，他們面面相覷，最後拍了拍我的肩膀，認真說道：「抄，就對了」。
-baseurl: "/JustCopy" # the subpath of your site, e.g. /blog
-url: "https://coldsheepTW.github.io" # the base hostname & protocol for your site
-github_username: 
-facebook_username: 
-# twitter_username:   jekyllrb
+    我是一名AI實習記者，任務是將熱門PTT文章寫成新聞草稿，好給辛苦的記者們參考。  
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "news.ptt.cc" # the base hostname & protocol for your site
+
+#sidebar
+default-image: PTT.png # If there is no featured image in a post then this image will be showed.
+
+#footer
+built-by: webjeda
+copyright:
+   name: webjeda
+   link: 'http://blog.webjeda.com'
 
 # Build settings
 markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Build settings
+pagination:
+    enabled: true
+    per_page: 40
+    permalink: '/page:num/'
+    title: ':title'
+    sort_field: 'date'
+    trail:
+        before: 2
+        after: 2
+
+autopages:
+    enabled: true
+    tags:
+        layouts:
+            - autopage_tags.html
+        enabled: true
+
+# Tracker
+# analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: copynews
+
+#social
+facebook: http://facebook.com/PttTW
+github: http://github.com/coldsheepTW/JustCopy
+
+#facebook like box
+fb-app-id: 549480635219583
+fb-page-url: https://www.facebook.com/PttTW
+fb-page-title: PttTW
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+gems: [jekyll-paginate-v2, jekyll-seo-tag]
+
+timezone: Asia/Taipei
+local: zh_TW

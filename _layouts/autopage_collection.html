@@ -1,16 +1,20 @@
 ---
-layout: default
+layout: default_cat
 pagination:
     enabled: true
+    tags: Gossiping, NBA, movie, Beauty
     sort_field: 'date'
     sort_reverse: true
-    tags: Gossiping, NBA, movie, Beauty
 ---
+<script src="{{site.baseurl}}/js/layouts.js"></script>
 <div class="tab-content">
-    <div id="home" class="home tab-pane fade in active">
+    {% assign tags = "Gossiping|NBA|movie|Beauty" | split: '|' %}
+    {% for tag in tags %}
+    <div id="{{tag}}" class="tab-pane fade">
         <div class="row pack">
     
-            {% for post in paginator.posts %}   
+        {% for post in paginator.posts %}   
+            {% if post.tags contains tag %}
                 <div class="col-md-3 card">
                      
                     <div class="panel panel-default">
@@ -38,50 +42,40 @@ pagination:
                       </div>
                     </div>
                 </div>
-            {% endfor %}
+            {% endif %}
+        {% endfor %}
         </div> 
         
         <div class="row">
             <div class="col-md-4">  </div>
             <div class="col-md-4">
                 {% if paginator.total_pages > 1 %}
-                    <ul class="pager">
-                        {% if paginator.first_page %}
-                        <li class="previous">
-                            <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">首頁</a>
-                        </li>
-                        {% endif %}
+                <ul class="pager">
+                  {% if paginator.previous_page %}
+                    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+                  {% else %}
+                    <li><span>&laquo; Prev</span></li>
+                  {% endif %}
 
-                        {% if paginator.previous_page %}
-                        <li class="previous">
-                            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+                  {% if paginator.page_trail %}
+                    {% for trail in paginator.page_trail %}
+                        <li {% if page.url == trail.path %}class="selected"{% endif %}>
+                            <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
                         </li>
-                        {% endif %}
-
-                        {% if paginator.page_trail %}
-                          {% for trail in paginator.page_trail %}
-                            <li {% if page.url == trail.path %}class="selected"{% endif %}>
-                                <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">{{ trail.num }}</a>
-                            </li>
-                          {% endfor %}
-                        {% endif %}
-
-                        {% if paginator.next_page %}
-                        <li class="next">
-                            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-                        </li>
-                        {% endif %}
-
-                         {% if paginator.last_page %}
-                        <li class="previous">
-                            <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">...{{paginator.total_pages}}</a>
-                        </li>
-                        {% endif %}
-                    </ul>
+                    {% endfor %}
+                  {% endif %}
+    
+                  {% if paginator.next_page %}
+                    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+                  {% else %}
+                    <li><span >Next &raquo;</span></li>
+                  {% endif %}
+                  </ul>
                 {% endif %}
     
             </div>
             <div class="col-md-4">  </div>
         </div>
-    </div><!--home-->
-</div>  <!--tab-content-->
+    </div>
+{% endfor %}
+</div>
