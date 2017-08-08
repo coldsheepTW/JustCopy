@@ -4,13 +4,15 @@ pagination:
     enabled: true
     sort_field: 'date'
     sort_reverse: true
-    tags: Gossiping, NBA, movie, Beauty
+    tags: Gossiping, NBA, Baseball, movie, KoreaStar, Beauty, Boy-Girl, WomenTalk, sex
 ---
 <div class="tab-content">
     <div id="home" class="home tab-pane fade in active">
         <div class="row pack">
     
             {% for post in paginator.posts %}   
+                {% if post.tags contains "sex" %}
+                {% else %}
                 <div class="col-md-3 card">
                      
                     <div class="panel panel-default">
@@ -38,6 +40,7 @@ pagination:
                       </div>
                     </div>
                 </div>
+                {% endif %}
             {% endfor %}
         </div> 
         
