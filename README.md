@@ -5,7 +5,9 @@
 
 ## 網頁生成
 Powered by [Jekyll](https://jekyllrb.com/)
-Layout modify from [webjeda](http://webjeda.com/cards)
+
+Layout based on [webjeda](http://webjeda.com/cards)
+
 For more themes visit - [Jekyll Themes](https://jekyll-themes.com)
 
 ## 安裝執行
