@@ -1,0 +1,30 @@
+---
+layout: post
+tags: movie
+title: "只看第一集就好的電影"
+date: Mon Aug  7 17:30:54 2017 +0800
+article_url: ""
+response_url: "http://i.imgur.com//TaMqoUj.jpg"
+img: http://i.imgur.com//TaMqoUj.jpg
+push: 133
+boo: 2
+neutral: 32
+---
+
+<figure>
+<img src="http://i.imgur.com//TaMqoUj.jpg" alt="image">
+<figcaption>
+[片單] 只看第一集就好的電影
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 請描述欲尋找電影的類型或特徵（請盡量描述清楚），近年好萊塢劇本荒。
+
+網友將相關訊息貼到《批踢踢實業坊》movie，引起熱議
+
+有人直呼「暮光之城只有第一集好看，第二集看完之後後面都不想去」、「不是劇本荒，只是拍續集投資風險低」，網友說「神鬼奇航3世界的盡頭我覺得最好看耶....」，「神鬼奇航.捍衛任務.駭客任務.即刻救援」。原PO說，「一直不斷有作品翻拍或是推出續集，(其實最後我發現自己真的很喜歡的作品反而不會希望推出續集」，也有網友認為，「奪魂鋸，沉默之丘，惡靈古堡，都是一集最優」
+
+<a href = "https://www.ptt.cc/bbs/movie/M.1502098256.A.BDC.html">原文連結</a>
+

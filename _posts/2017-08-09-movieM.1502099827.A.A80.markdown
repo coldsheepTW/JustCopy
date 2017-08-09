@@ -1,0 +1,30 @@
+---
+layout: post
+tags: movie
+title: "請幫推薦 韓國電影"
+date: Mon Aug  7 17:57:05 2017 +0800
+article_url: ""
+response_url: ""
+img: http://i.imgur.com/tlXnzNN.jpg
+push: 35
+boo: 4
+neutral: 14
+---
+
+<figure>
+<img src="http://i.imgur.com/tlXnzNN.jpg" alt="image">
+<figcaption>
+[片單] 請幫推薦 韓國電影
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 因為目前碰上瓶頸，目前比較偏好犯罪、劇情、寫實、黑道，目前看過以下片子，且覺的大優，key、殺人回憶、素媛、辦護人，我是殺人犯、失控隧道、委託人、黃海、the，king、恐佈直播、追擊者。
+
+網友將相關訊息貼到《批踢踢實業坊》movie，引起熱議
+
+有人直呼「可以先從，魚，開始看，當年在台灣上的時候很轟動，韓片之始」、「去找工作比較實際吧，看電影當廢人不太好哦」，網友說「太極旗，戰爭片算嗎，當初看完覺得超讚」，「昨天看的，這個殺手演很大，超好看，但不知有沒有符合你」。原PO說，「只剩密探尚未看過，晚點再去DVD店找來看，有點太英雄片不合小弟味口，可以一次新增4部片單惹，漏打上去了，雖然目前對戰爭片還好」，也有網友認為，「復仇，親切的金子，原罪犯，三部曲」
+
+<a href = "https://www.ptt.cc/bbs/movie/M.1502099827.A.A80.html">原文連結</a>
+

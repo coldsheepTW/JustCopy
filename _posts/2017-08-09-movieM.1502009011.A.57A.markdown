@@ -1,0 +1,30 @@
+---
+layout: post
+tags: movie
+title: "蠟筆小新和柯南"
+date: Sun Aug  6 16:43:28 2017 +0800
+article_url: ""
+response_url: "http://i.imgur.com//gojleBE.jpg"
+img: http://i.imgur.com//gojleBE.jpg
+push: 39
+boo: 2
+neutral: 15
+---
+
+<figure>
+<img src="http://i.imgur.com//gojleBE.jpg" alt="image">
+<figcaption>
+[選片] 蠟筆小新和柯南
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友adenaden2003發文表示，不知道有沒有人看過最新的蠟筆小新電影，還沒看到有人發宇宙人Pi力來襲的文
+
+根據批踢踢movie板網友adenaden2003表示，「女朋友想看柯南，大家有建議選柯南或是小新嗎」。分類選選片結果跑到片單是怎樣，所以有碼掉我不知道QQ
+
+文章下方網友留言表示「當然是柯南，還用問嗎」;「柯南就是只有粉絲會喜歡，小新比較大眾一點，劇場版」; 「女友想看柯南當然看柯南，而且這次評價也很好」。也有網友表示，「柯男電影版雖然有時劇情會有點智障，但小新劇場版的劇情」
+
+<a href = "https://www.ptt.cc/bbs/movie/M.1502009011.A.57A.html">原文連結</a>
+

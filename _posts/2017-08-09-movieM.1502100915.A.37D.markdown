@@ -1,0 +1,30 @@
+---
+layout: post
+tags: movie
+title: "全國電影票房截至2017年七月前資訊"
+date: Mon Aug  7 18:15:10 2017 +0800
+article_url: "http://www.tfi.org.tw/viewfile.asp?TB_ID=36"
+response_url: ""
+img: http://attach.setn.com/newsimages/2017/04/13/873978-PH.jpg
+push: 45
+boo: 1
+neutral: 38
+---
+
+<figure>
+<img src="http://attach.setn.com/newsimages/2017/04/13/873978-PH.jpg" alt="image">
+<figcaption>
+[情報] 全國電影票房截至2017年七月前資訊
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友ifthereis發文表示，公告日期，上映日期，加勒比海盜神鬼奇航，吃吃的愛，雖然媽媽說我不可以嫁去日本2017/06/16，澳/美/英，英/美
+
+根據批踢踢movie板網友ifthereis表示，「死小孩，失落之城，綁的不是人，酷瓜人生，玩命鎗火，愛在回家時，厄夜直播」。德/法/美，票房統計截止至公告日期的前一工作日，那我只好整理一下目前國家電影中心從今年開始公告每月票房後所累計銷售金額前30名了，上映日期，加勒比海盜神鬼奇航，吃吃的愛
+
+文章下方網友留言表示「前三十都沒有台灣電影吧，除非吃吃算臺片」;「那標題下的很矛盾啊，該年七月前，然後又不包括部分電影」; 「玩八不是在滿多國家票房都不錯，就大家愛看XD」。也有網友表示，「原來羅根不是今年的片」
+
+<a href = "https://www.ptt.cc/bbs/movie/M.1502100915.A.37D.html">原文連結</a>
+

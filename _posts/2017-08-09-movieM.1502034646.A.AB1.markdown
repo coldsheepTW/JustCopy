@@ -1,0 +1,30 @@
+---
+layout: post
+tags: movie
+title: "20年來IMDB 9分只有一部,和盜版興起有關嗎"
+date: Sun Aug  6 23:50:44 2017 +0800
+article_url: ""
+response_url: "http://imgur.com//MBtdpOP"
+img: http://i.imgur.com/MBtdpOP.gif?noredirect
+push: 42
+boo: 12
+neutral: 44
+---
+
+<figure>
+<img src="http://i.imgur.com/MBtdpOP.gif?noredirect" alt="image">
+<figcaption>
+[討論]20年來IMDB 9分只有一部,和盜版興起有關嗎
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友lockread發文表示，最高分的刺激1995也是1994年的電影了，不知道是不是和近20年來網路越來越發達
+
+根據批踢踢movie板網友lockread表示，「會不會降低一些導演想要拍出好電影，或者也降低了想要創作出好劇本的人的動機呢」。FICTION、鬥陣俱樂部，當時好像網路盜版分享影片還沒出現
+
+文章下方網友留言表示「20年前dvd還算貴的，最泛濫的是盜版vcd，攤販隨處可見」;「要說盜版興起邏輯應該是更多人看，所以評分變多，平均」; 「時間或更早的電影多是多少有熱衷會特意欣賞舊電影的人回」。也有網友表示，「結果總投票人數最多的刺激1995受負評影響最少」
+
+<a href = "https://www.ptt.cc/bbs/movie/M.1502034646.A.AB1.html">原文連結</a>
+

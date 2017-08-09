@@ -1,0 +1,31 @@
+---
+layout: post
+tags: Beauty
+title: "美美的新娘"
+date: Mon Aug  7 21:26:48 2017 +0800
+article_url: "http://i.imgur.com/jN6tJtD.jpg;http://i.imgur.com/aznMAp1.jpg;http://i.imgur.com/pKLRdVo.jpg;http://i.imgur.com/8BfgPg5.jpg;http://i.imgur.com/ViJfFeo.jpg;http://i.imgur.com/Eo4zSCu.jpg;http://i.imgur.com/i8ezb7Q.jpg"
+response_url: ""
+img: http://i.imgur.com/jN6tJtD.jpg
+all_img: http://i.imgur.com/aznMAp1.jpg;http://i.imgur.com/pKLRdVo.jpg;http://i.imgur.com/8BfgPg5.jpg;http://i.imgur.com/ViJfFeo.jpg;http://i.imgur.com/Eo4zSCu.jpg;http://i.imgur.com/i8ezb7Q.jpg
+push: 42
+boo: 2
+neutral: 9
+---
+
+<figure>
+<img src="http://i.imgur.com/jN6tJtD.jpg" alt="image">
+<figcaption>
+[正妹] 美美的新娘
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友yusheng1990發文表示，是婚紗照無誤
+
+根據批踢踢Beauty板網友yusheng1990表示，「沒錯」。幸福人夫
+
+文章下方網友留言表示「這是婚紗照嗎，賓客肯定都起立致敬了」;「超正，眼神很騷」; 「還有一張床上那張，琳恩超正啊」。也有網友表示，「想去婚禮幹她的禮物小卡跟禮物」
+
+<a href = "https://www.ptt.cc/bbs/Beauty/M.1502112411.A.19C.html">原文連結</a>
+

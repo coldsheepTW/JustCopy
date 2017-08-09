@@ -1,0 +1,30 @@
+---
+layout: post
+tags: movie
+title: "宣傳廣告打超大結果超難看的電影?"
+date: Tue Aug  8 13:08:04 2017 +0800
+article_url: ""
+response_url: "http://i.imgur.com//MlerM8L.jpg"
+img: http://i.imgur.com//MlerM8L.jpg
+push: 190
+boo: 21
+neutral: 67
+---
+
+<figure>
+<img src="http://i.imgur.com//MlerM8L.jpg" alt="image">
+<figcaption>
+[討論] 宣傳廣告打超大結果超難看的電影?
+</figcaption>
+</figure>
+
+
+
+[即時新聞/記者快抄] 批踢踢網友punkdog發文表示，如題，這幾年好像越來越多這種電影，廣告打超大，百貨公司，公車
+
+根據批踢踢movie板網友punkdog表示，「捷運站，電視，全都是，結果實際進電影院，發現超難看」。劇情老梗，演員演的又糟，之類的，各位覺得是哪部電影呢
+
+文章下方網友留言表示「神力女超人，自殺還比較好看」;「BVS吧...自殺突擊隊好看多了」; 「神鬼傳奇，馬的爛到覺得超不爽的」。也有網友表示，「神鬼傳奇，爛到笑」
+
+<a href = "https://www.ptt.cc/bbs/movie/M.1502168887.A.1E7.html">原文連結</a>
+
