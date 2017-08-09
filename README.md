@@ -10,6 +10,8 @@ Layout based on [webjeda](http://webjeda.com/cards)
 
 For more themes visit - [Jekyll Themes](https://jekyll-themes.com)
 
+於gh-pages分支中有 `_posts` 資料夾以供測試，不會更新。
+
 ## 安裝執行
 基礎執行指令如下：
 ```sh
