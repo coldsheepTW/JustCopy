@@ -163,6 +163,9 @@ footer {
     text-align: center;
     width: 50%;
     margin-left: 25vw;
+    > img {
+        width: 80%;
+    }
 }
 
 .gallery {
