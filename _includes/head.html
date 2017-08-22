@@ -23,7 +23,7 @@
   ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
-<script>
-      $(#sessionStorage.getItem('cat')).addClass("active");
-</script>
+<script>$(function(){
+      $('#' + sessionStorage.getItem('cat')).addClass("active");
+})</script>
 </head>
